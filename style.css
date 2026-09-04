@@ -898,10 +898,8 @@ em {
 .polaroid img,
 .second-photo img,
 .together-photo img {
+    display: block;
     width: 100%;
     max-width: 100%;
-    max-height: 420px;
     height: auto;
-    object-fit: contain;
-    display: block;
 }
